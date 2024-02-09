@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(6, 10, 49);
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(241, 239, 115);
+    text-align: center;
+    font-weight: 800;
+    font-size: 45px;
+}
+
+li {
+    color: rgb(238, 240, 219);
+}
+
+a {
+    color: rgb(188, 190, 193);
+    font-size: 21px;
+    text-decoration: none;
+    font-weight: 400;
+}
