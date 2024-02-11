@@ -1,46 +1,52 @@
 body {
     font-family: Helvetica, sans-serif;
 }
-body.index {
+
+.index {
     background-color: rgb(6, 10, 49);
     margin: 0;
 }
-body.recipe {
+
+.recipe {
     background-color: rgb(241, 239, 115);
 }
 
 h1 {
     text-align: center;
 }
-h1.index-h1 {
+
+.index-h1 {
     color: rgb(241, 239, 115);
     font-weight: 800;
     font-size: 45px;
 }
-h1.recipe-h1 {
+
+.recipe-h1 {
     font-size: 40px;
 }
-h1.recipe-h1, h2.recipe-h2 {
+
+.recipe-h1, .recipe-h2 {
     color: rgb(10, 18, 95);
 }
 
-ul.index-ul {
+.index-ul {
     text-align: center;
     margin: 0;
     padding: 0;
 }
 
-li.index-li {
+.index-li {
     list-style: none;
     width: 25%;
     margin: 0 auto 20px auto;
     border: 1px solid rgb(238, 240, 219);
 }
-li.recipe-li {
+
+.recipe-li {
     color: rgb(40, 42, 46);
 }
 
-a.index-a {
+.index-a {
     color: rgb(188, 190, 193);
     font-size: 21px;
     text-decoration: none;
@@ -48,15 +54,16 @@ a.index-a {
     display: block;
     padding: 10px;
 }
-a.recipe-a {
+
+.recipe-a {
     color: rgb(30, 31, 32);
 }
 
-p.recipe-p {
+.recipe-p {
     color: rgb(40, 42, 46);
 }
 
-img.recipe-img {
+.recipe-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
